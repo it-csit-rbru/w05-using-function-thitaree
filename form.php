@@ -25,7 +25,7 @@
         <label for="faculty">คณะ</label>
         <select name="faculty">
             <option value="1">วิทยาการคอมพิวเตอร์และเทคโนโลยีสารสนเทศ</option>
-            <option value="2">คอมพิวเตอร์ศึกษา</option>
+            <option value="2">ครุศาสตร์</option>
         </select>
         <label for="std_year">ชั้นปี</label>
             <input type="radio" name="std_year" value="1"><label>ปี 1</label>
@@ -36,8 +36,8 @@
     </fieldset>
     <fieldset id="select2">
         <legend>ส่วนที่2 ข้อมูลโครงงาน</legend>
-        <label for="prj_name_th">ชื่อโครงงาน(ไทย)</label><input type="textarea" name="prj_name_th"><br>
-        <label for="prj_name_en">ชื่อโครงงาน(อังกฤษ)</label><input type="textarea" name="prj_name_en"><br>
+        <label for="prj_name_th">ชื่อโครงงาน(ไทย)</label><textarea name="prj_name_th"></textarea>
+        <label for="prj_name_en">ชื่อโครงงาน(อังกฤษ)</label><textarea name="prj_name_en"></textarea>
         <label for="prj_type">ประเภทโครงงาน</label>
         <select name="prj_type">
             <option value="1">โครงงานพัฒนาสื่อเพื่อการศึกษา</option>
@@ -47,16 +47,16 @@
             <option value="5">โครงงานพัฒนาเกม</option>
         </select>
         <label>เครื่องมือที่ใช้พัฒนา</label>
-            <input type="checkbox" name="prj_tool[]"><label>HTML</label>
-            <input type="checkbox" name="prj_tool[]"><label>CSS</label> 
-            <input type="checkbox" name="prj_tool[]"><label>JavaScript</label>
-            <input type="checkbox" name="prj_tool[]"><label>Bootstrap</label>
-            <input type="checkbox" name="prj_tool[]"><label>Materrial Design</label>
-            <input type="checkbox" name="prj_tool[]"><label>Angular</label>
-            <input type="checkbox" name="prj_tool[]"><label>Resact</label>
-            <input type="checkbox" name="prj_tool[]"><label>PHP</label>
-            <input type="checkbox" name="prj_tool[]"><label>MySQL</label>
-            <input type="checkbox" name="prj_tool[]"><label>ChartJS</label><br>
+            <input type="checkbox" name="prj_tool[]" value="1"><label>HTML</label>
+            <input type="checkbox" name="prj_tool[]" value="2"><label>CSS</label> 
+            <input type="checkbox" name="prj_tool[]" value="3"><label>JavaScript</label>
+            <input type="checkbox" name="prj_tool[]" value="4"><label>Bootstrap</label>
+            <input type="checkbox" name="prj_tool[]" value="5"><label>Materrial Design</label>
+            <input type="checkbox" name="prj_tool[]" value="6"><label>Angular</label>
+            <input type="checkbox" name="prj_tool[]" value="7"><label>Resact</label>
+            <input type="checkbox" name="prj_tool[]" value="8"><label>PHP</label>
+            <input type="checkbox" name="prj_tool[]" value="9"><label>MySQL</label>
+            <input type="checkbox" name="prj_tool[]" value="10"><label>ChartJS</label><br>
         <label>อาจารย์ที่ปรึกษา</label>
         <select name="prj_advisor">
             <option value="1">ผศ.บุญเรือน พฤกษศิธร</option>
